@@ -1,5 +1,3 @@
-
-
 /* oswald-regular - latin */
 @font-face {
     font-family: 'Oswald';
@@ -165,6 +163,25 @@ header {
     background-image: url(../images/rek.png);
     display: flex;
     justify-content: space-between;
+}
+
+.katta_banner .banner-word {
+    margin-top: 18px;
+}
+
+.katta_banner .banner-purchase button {
+    margin-top: 32px;
+    color: #FFFFFF;
+}
+
+.banner-last {
+    width: 871px;
+    height: 120px;
+    background-image: url(../images/katta_banner.png);
+}
+
+.banner-last .blog {
+    margin: 32px 0px 0px 26px;
 }
 
 .banner-container-reklama .blog {
@@ -826,9 +843,9 @@ main {
 
 .sport-all .sport-list {
     display: flex;
-    width: 666px;
+    width: 826px;
     border-bottom: 1px solid #393939;
-    padding-left: 158px;
+    padding-left: 218px;
 }
 
 .sports-sport {
@@ -930,12 +947,14 @@ main {
 
 .sport-stay {
     width: 270px;
-    margin-left: 30px;
+    margin-left: 90px;
+    position: relative;
 }
 
 .stay-connected {
     display: flex;
     padding-bottom: 10px;
+    /* margin-top: 18px; */
 }
 
 .stay-connected li:nth-child(1) {
@@ -1016,6 +1035,7 @@ main {
     width: 270px;
     height: 290px;
     padding: 122px 112px;
+    padding-bottom: 180px;
 }
 
 .add h4 {
@@ -1025,4 +1045,311 @@ main {
     font-size: 36px;
     line-height: 42px;
     color: #fff;
+}
+
+.latest {
+    background: #DEDADA;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.latest-post {
+    margin: 25px 68px;
+}
+
+.adress {
+    width: 220px;
+    height: 40px;
+    margin: 0px 25px 10px 25px;
+    padding-left: 50px;
+    border: 0;
+}
+
+.addresssub {
+
+    background: #F65050;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.strelka_qora {
+    width: 24px;
+    height: 24px;
+}
+
+.life_qora {
+    display: flex;
+}
+
+.life_qora li span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #393939;
+}
+
+.strelka_qora li {
+    width: 250px;
+    display: flex;
+    margin: 6.25px 0px;
+}
+
+.tezlik {
+    position: absolute;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background: #A56CBD;
+    color: white;
+    text-align: center;
+}
+.tezlik-life_style{
+    background: #F65050;
+}
+
+.tezlik-world{
+    background: #A56CBD;
+}
+.tezlik-foods{
+    background: #C23785;
+}
+.tezlik-tachnology{
+    background: #4C60F5;
+}
+.tezlik-sports{
+    background:  #0088FF;;
+}
+.tezlik-football{
+    background: #F7679D;
+}
+.tezlik-cticket{
+    background: #42C0F5;
+}
+.tezlik-covid{
+    background: #49CFE8;
+}
+/* Lifestyle qismi  */
+
+.lifestyle{
+    margin-top: 45px;
+}
+.lifestyle .sport-all .lifestyle-res {
+    padding-left: 300px;
+    width: 870px;
+}
+
+.lifestyle .sport-all .sport-list .ls_image {
+    background: rgba(246, 80, 80, 0.6);
+    width: 24px;
+}
+
+.lifestyle .sport-all .sport-list .ls_image2 {
+    background: #F65050;
+    width: 24px;
+}
+
+.lifestyle_menu {
+    display: flex;
+}
+
+.maternal-health {
+    margin-top: 25px;
+    background-image: url(../images/Yurak_eshitadigan.png);
+    height: 250px;
+    width: 420px;
+}
+
+.maternal-health button {
+    background: #997C00;
+    margin: 25px;
+    border: 0;
+    width: 97px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.maternal-about {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #393939;
+}
+
+.lifestyle-penn-dec {
+    margin: 25px 0px 6px 0px;
+}
+
+.lifestyle-about {
+    width: 393px;
+    height: 54px;
+    margin-bottom: 12px;
+}
+
+.lifestyle-about p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.lifestyle-lorem {
+    padding-top: 12px;
+    width: 370px;
+    height: 48px;
+}
+
+.lifestyle-election {
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.kreslo img {
+    padding-top: 25px;
+}
+
+.vital {
+    margin-top: 25px;
+    display: flex;
+}
+
+.vital .lifestyle-penn-dec {
+    margin-top: 3px;
+}
+
+.vital .lifestyle-about p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.vital .kreslo {
+    margin-left: 12px;
+    width: 223px;
+    height: 90px;
+
+}
+
+.vital .kreslo .lifestyle-about {
+
+    width: 223px;
+    height: 72px;
+}
+
+.maternal-health-child {
+    background-image: url(../images/mikroskop.png);
+}
+
+.maternal-child {
+    margin-left: 30px;
+}
+
+.maternal-child button {
+    background: #2ECC71;
+}
+
+.lifestyle-conatiner .sport-all {
+    width: 870px;
+}
+
+/* #2ECC71 */
+
+
+/* video qismi  */
+
+.video {
+    margin-top: 50px;
+}
+
+.video .sport-all {
+    width: 870px;
+}
+
+.video .sport-all .sport-list .ls_image_video {
+    background: rgba(246, 80, 80, 0.6);
+    width: 24px;
+}
+
+.video .sport-all .sport-list .ls_image2_video {
+    background: #F65050;
+    width: 24px;
+}
+
+.video .sport-all .video-res {
+    padding-left: 300px;
+}
+
+.epic {
+    margin-top: 18px;
+    position: relative;
+}
+
+.epic .esport {
+    width: 59px;
+    height: 21px;
+    background: #FE4A51;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border: 0;
+    color: #FFFFFF;
+}
+
+.polygon {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.surish{
+    width: 144px;
+    height: 12px;
+    position: absolute;
+    top: 185px;
+    left: 24px;
+}
+.done-video {
+    width: 529px;
+    height: 106px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 210px;
+    left: 25px;
+}
+.failure .esport{
+    background: #49CFE8;
+}
+.play{
+    position: absolute;
+    top: 81px;
+    left: 116px;
+}
+
+.hotel-video{
+    font-family: 'Oswald';
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #393939;
+}
+.hotel{
+    width: 270px;
+    height: 42px;
+}
+.video-focus{
+    display: flex;
+    gap: 0px 30px;
+}
+.failure .third-esport{
+    background: #26387A;;
+}
+.failure .fourth-esport{
+    background: #FB8282;
 }
